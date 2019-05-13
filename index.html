@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-UA-Compatible" content="ie=edge">
+    <link href="./img/casino.png" rel="icon">
+    <link
+        href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Macondo+Swash+Caps|Nova+Script|Lobster|Stylish"
+        rel="stylesheet">
+    <title>PIG DICE</title>
+    <link href="./css/styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <center>
+        <table>
+            <tr>
+                <div>
+                    <td class="head">
+                        <!--<h2>PIG DICE</h2>-->
+                    </td>
+                </div>
+            </tr>
+        </table>
+    </center>
+    <center>
+        <table>
+            <tr>
+
+                <div class="row">
+                    <td id="img1">
+                        <div id="player1"></div>
+                        <div id="dice1">
+                            <label>Dice:</label>
+                            <span id="placeholder1"></span>
+                        </div>
+                        <br/><br/><br/>
+                        <div>
+                            <button type="submit"  id="rollDices1" onclick="rollDice1()">ROLL</button><br/><br/>
+                            <button type="submit" id="holdDice1" onclick="">HOLD</button>
+                        </div>
+                    </td>
+
+                    <td>
+                        <div class="input">
+                            <form>
+                                <label class="col">Number <br />of <br />rolls:</label><br /><br />
+                                <input type="text" placeholder="e.g:3"><br /><br />
+                                <!--<button type="button" id="rollDices" onclick="rollDice1(), rollDice2()">ROLL</button><br />-->
+                                <br />
+                                <button type="reset"><abbr value="RESET">RESET</abbr></button>
+                            </form>
+                        </div>
+                    </td>
+
+                    <td id="img2">
+                        <div id="player2"></div>
+                        <div id="dice2">
+                            <label>Dice:</label>
+                            <span id="placeholder2"></span>
+                        </div>
+                        <br/><br/><br/>
+                        <div>
+                            <button type="submit" id="rollDices2" onclick="rollDice2()">ROLL</button><br/><br/>
+                            <button type="submit" id="holdDice2" onclick="">HOLD</button>
+                        </div>
+                    </td>
+
+                </div>
+            </tr>
+        </table>
+    </center>
+    <div>
+
+    </div>
+    <script src="./js/styles.js"></script>
+</body>
+
+</html>
