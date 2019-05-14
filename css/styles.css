@@ -131,7 +131,7 @@ h2 {
     font-style: italic;
 }
 #rules {
-    transform: scale3d(10px);
+    padding-top: -10px;
 }
 #holdDice1, #holdDice2 {
     float: left;
